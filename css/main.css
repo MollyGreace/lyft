@@ -148,9 +148,46 @@ section>div {
   max-height: 100px;
   position: absolute;
 }
-/*Section 03*/
-/*Section 04*/
-/*Section 05*/
+
+/*Section 03-04-05*/
+
+.container {
+  display: -webkit-inline-box;
+  width: 100%;    
+}
+
+.content {
+  box-sizing: border-box; 
+  height: 60vh;    
+  padding: 12px;
+  width: 31%;
+}
+
+.content h3 {
+  margin: 1% 9% 0;
+}
+
+.content p {
+  margin: 4% 9% 0;
+}
+
+.little {
+  font-size: 12px;
+
+}
+
+.video {
+  box-sizing: border-box;
+  position: relative;
+  width: 69%;
+}
+
+.video iframe {
+  height: 100%;
+  position: absolute;    
+  width: 100%;
+}
+
 /*Footer*/
 .format-footer {
   background-color: #333447;
