@@ -1,92 +1,57 @@
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+* Curso: _Creando tu primer sitio web interactivo_
+* Unidad: _Maquetado web con HTML & CSS_
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+El siguiente reto consiste en maquetar la página web de Lyft, una compañía de negocios del transporte en San Francisco, California.
 
-## Flujo de trabajo
+Para este reto tenemos ya un repositorio de Laboratoria Learning que debemos copiar a nuestros repositorios y por medio de un _git clone_ descargar los archivos a nuestros repositorios locales.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
-
-## Objetivo
-
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+Una vez realizado estos pasos, empezamos y este será nuestro resultado.
 
 ![Lyft Website](docs/fullpage.png)
 
-## Consideraciones
+## Componentes
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+* Crear un archivo base `index.html` en la que escribimos la estructura del proyecto y enlazar los archivos css.
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
+* En una carpeta css creamos el archivo de estilo base `main.css` donde agregamos todos los estilos para nuestra página.
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde tenemos todas las imágenes para nuestra página.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+* También incluimos el archivo `README.md`** explicando el contenido de este repositorio.
 
 * Esta web utiliza la tipografía `Montserrat`.
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
-
+* Paleta de colores:
   - Botones, hover: `#FF00BF`
   - Fondo de `footer`: `#333447`
   - Título del formulario: `#352384`
   - Texto del formulario: `#728099`
   - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
 
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
+* El footer se ve así:
 
   ![Lyft - Footer](docs/footer.gif)
 
-  Además, los íconos deberás obtenerlo de `Icomoon`.
+* Los íconos son de `Icomoon`.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
+## Lo nuevo
 
-  - Estos son los videos de Youtube:
+* Para este reto, hemos visto formularios y videos de Youtube. 
+  - Los videos de Youtube a colocar en las secciones:
     * https://www.youtube.com/watch?v=fLSmUWOYpKw
     * https://www.youtube.com/watch?v=V7j8Aqxmbs8
     * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
+  - Utilizamos la etiqueta `iframe` para los videos.
+  - Para el formulario, la etiqueta `input`.
 
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
+* Utilizamos como guía el [sitio original](https://www.lyft.com/), aunque su diseño se basa en la imagen objetiva de este reto.
+ 
+### Autoras
 
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
+* Molly Siesquén
+* Shannon Rivera
 
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
