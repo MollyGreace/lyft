@@ -1,3 +1,279 @@
 /*
  * Estilos de tu proyecto
  */
+ /*Clases Reutilizables*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*Clases Específicas*/
+/*Header*/
+img.logo-header {
+  height: 30px;  
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 50px;
+}
+
+.menu-header {  
+  margin-left: 50%;
+  display: inline;
+}
+
+.menu-header li{
+  display: inline;
+}
+
+.menu-header li a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.nav-header {
+  position: absolute;
+  width: 100%;
+}
+
+#button-login {
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#button-login a:hover {
+  background-color: white;
+  border: 1px solid #221239;
+  color: #221239;
+  content: ;
+}
+
+/*Section 01*/
+.section-01 {
+  background-image: url("../assets/images/hero.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-01>div{
+  height: 7em;
+  background: linear-gradient(transparent,#76278f);
+}
+
+/*Article*/
+article {
+  background-color: #fff;
+  float: right;
+  height: 350px;
+  margin-top: 10%;
+  padding: 2em;
+  position: relative;
+  width: 450px;  
+}
+
+article>div {
+  margin: 2em 2em 3em 3em;
+}
+
+.title-s1,
+.subtitle-s1 {
+  color: #352384;
+}
+
+.title-s1 {
+  font-size: xx-large;
+  margin-bottom: 1em;
+}
+
+.input-phone {
+  border-bottom-color: purple;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  margin: 2em 0;
+  width: 70%;
+}
+
+.btn-driver {
+  border: none;
+  border-radius: 7px;
+  background: #ff00bf;
+  color: #fff;
+  cursor: pointer;
+  font-size: large;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+span {  
+  display: -webkit-inline-box;
+  font-size: x-large;
+}
+
+span>p {  
+  color: #8e9aad;
+  margin-left: 30px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+article>div>h6,h5 {
+  color: #8e9aad;
+}
+
+/*Section 02*/
+.section-02 {
+  background: linear-gradient(#76278f, #2b1e66);
+  height: 100vh;
+}
+
+section>div {
+  color: #fff;
+  display: inline-block;
+}
+
+.img-phone {  
+  max-width: inherit;
+  max-height: 100px;
+  position: absolute;
+}
+/*Section 03*/
+/*Section 04*/
+/*Section 05*/
+/*Footer*/
+.format-footer {
+  background-color: #333447;
+  bottom: 0;
+  color: #fff;
+  height: max-content;
+  width: 100%;
+}
+
+.container-cols {  
+  column-count: 4;
+  display: flex;
+}
+.col01-footer {
+  margin: 0em 1em 2em 3em;
+  padding-top: 3em;
+  width: 25%;
+}
+
+.col02-footer {
+  margin: 0em 1em 2em 3em;
+  padding-top: 3em;
+  width: 25%;
+}
+
+.col03-footer {
+  margin: 0em 1em 2em 3em;
+  padding-top: 3em;
+  width: 25%;
+}
+
+.col04-footer {
+  margin: 3em 1em 2em 3em;
+  width: 25%;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.col01-footer>h3,
+.col01-footer>h4 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.col02-footer>h3,
+.col02-footer>h4 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.col03-footer>h3,
+.col03-footer>h4 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.col04-footer img {
+  cursor: pointer;
+  height: 60px;
+  margin-bottom: 2em;
+  width: 160px;
+}
+
+.col02-footer>h3,
+.col03-footer>h3 {
+  color: #bfc7d9;
+}
+
+.col01-footer>h3:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-color: #ff00bf;  
+}
+
+h4:hover {
+  color: #ff00bf;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.social-red {
+  margin-bottom: 2em;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+.social-red span{
+  border: 1px solid white;
+  border-radius: 60%;
+  margin-right: 3%;
+  padding: 0.5em;
+}
+
+.social-red .icon {
+  font-size: 1em;
+}
+
+hr {
+  border-style: solid;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+footer div:last-of-type {
+  text-align: center;
+  padding: 1em 1em 3em 1em;
+}
+
+footer div:last-of-type a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer div:last-of-type a:hover {
+  color: #ff00bf;
+  text-decoration: underline;
+}
+
+.social-red span:hover {
+  color: #ff00bf;  
+}
