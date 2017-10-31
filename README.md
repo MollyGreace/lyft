@@ -40,12 +40,12 @@ Una vez realizado estos pasos, empezamos y este será nuestro resultado.
 
 ## Lo nuevo
 
-* Para este reto, hemos visto formularios y videos de Youtube). 
-  - Estos son los videos de Youtube:
+* Para este reto, hemos visto formularios y videos de Youtube. 
+  - Los videos de Youtube a colocar en las secciones:
     * https://www.youtube.com/watch?v=fLSmUWOYpKw
     * https://www.youtube.com/watch?v=V7j8Aqxmbs8
     * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Utilizamos la etiqueta `iframe`.
+  - Utilizamos la etiqueta `iframe` para los videos.
   - Para el formulario, la etiqueta `input`.
 
 * Utilizamos como guía el [sitio original](https://www.lyft.com/), aunque su diseño se basa en la imagen objetiva de este reto.
