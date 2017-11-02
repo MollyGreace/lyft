@@ -146,9 +146,10 @@ section>div {
   padding-left: 60px;
 }
 
-.img-phone {  
-  max-width: inherit;
-  max-height: 300px;
+.img-phone {
+ max-height: 90%;
+ margin-left: 30%;
+ margin-top: 2%;
 }
 
 .title-01,
