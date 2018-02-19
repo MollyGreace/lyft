@@ -1,6 +1,6 @@
 # Lyft
 
-Reto de Código - Sprint 02: Aquí ponemos en práctica los recursos aprendidos hasta el momento de Html/Css para el maquetado de una página desde cero.
+Reto de Código - Sprint 02: Página que replica la interfaz de la Web de Lyft. Aquí ponemos en práctica los recursos aprendidos hasta el momento de Html/Css para el maquetado de una página desde cero. 
 
 ![Lyft](https://user-images.githubusercontent.com/32301249/36388652-97463560-156a-11e8-8a49-08028ec9d029.png)
 
