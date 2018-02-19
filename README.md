@@ -1,5 +1,13 @@
 # Lyft
 
+Reto de Código - Sprint 02: Aquí ponemos en práctica los recursos aprendidos hasta el momento de Html/Css para el maquetado de una página desde cero.
+
+![Lyft](https://user-images.githubusercontent.com/32301249/36388652-97463560-156a-11e8-8a49-08028ec9d029.png)
+
+## Empresa
+Desarrollado para Laboratoria.
+
+******
 * Curso: _Creando tu primer sitio web interactivo_
 * Unidad: _Maquetado web con HTML & CSS_
 
